@@ -1,7 +1,6 @@
-# RunBPM手册
+RunBPM手册
 
-This is the summary of my book.
-
+* [简介](README.md)
 * [介绍](introduction/introduction.md)
 * 入门
     * [一分钟安装](getting_started/one_minute.md)
