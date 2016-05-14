@@ -14,7 +14,7 @@
 #下载
 
   
-* 流程引擎：<https://github.com/liguo-zhang/runbpm-modeler>
+* 流程引擎：<https://github.com/liguo-zhang/runbpm-engine>
   已经基本可用,基于Java，直接下载就是一个Java工程。
   可以运行引擎的单元测试了解所有的功能，一个一个的跑。有任何问题与我联系。
   org.runbpm.service.RuntimeService是最终对外公开API的主要接口。
@@ -23,7 +23,7 @@
 * 流程工作台：<https://github.com/liguo-zhang/runbpm-workspace>
   开发中。。。
 
-* 流程设计器：<https://github.com/liguo-zhang/runbpm-engine> 基于Node.js,目前有一个可用的版本：<http://pan.baidu.com/s/1jH7mZTO>,直接打开index.html在浏览器器中使用。
+* 流程设计器：<https://github.com/liguo-zhang/runbpm-modeler> 基于Node.js,目前有一个可用的版本：<http://pan.baidu.com/s/1jH7mZTO>,直接打开index.html在浏览器器中使用。
   
 ![sreenshot](https://raw.githubusercontent.com/liguo-zhang/runbpm-modeler/master/docs/screenshot.png)
 
