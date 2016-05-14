@@ -10,7 +10,7 @@
 
   
 * 流程引擎：<https://github.com/liguo-zhang/runbpm-modeler>
-  已经基本可用,基于JAVA
+  已经基本可用,基于Java，直接下载就是一个Java工程。
 
 * 流程工作台：<https://github.com/liguo-zhang/runbpm-workspace>
   开发中。。。
