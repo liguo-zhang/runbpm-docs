@@ -21,7 +21,12 @@
   org.runbpm.service.ServiceSampleTest是最终对外使用的样例。
 
 * 流程工作台：<https://github.com/liguo-zhang/runbpm-workspace>
-  开发中。。。
+  开发中
+  下载后是一个Eclipse Web工程。 在Eclipse Java EE IDE for Web Developers.
+中调试运行前,需要设置对<https://github.com/liguo-zhang/runbpm-engine>的源码依赖，执行下面其中之一可以可以。
+  * （推荐）设置对runbpm-engine的代码依赖，工程右键->Web Deployment Assembly->Add->Project->选择runbpm-engine->OK.这样Eclipse自动将runbpm-engine工程导出为jar包供runbpm-workspace使用。
+  * 手动将runbpm-engine达成jar放在WEB-INF/lib下。
+
 
 * 流程设计器：<https://github.com/liguo-zhang/runbpm-modeler> 基于Node.js,目前有一个可用的版本：<http://pan.baidu.com/s/1jH7mZTO>,直接打开index.html在浏览器器中使用。
   
