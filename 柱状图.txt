@@ -1,0 +1,59 @@
+柱状颜色：
+color: ['#982313'],
+柱状宽度：
+barWidth: '60%',
+X轴文字：
+data : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+提示语言：
+name:'直接访问',
+标题：
+text: '标题',
+
+要求输入
+data:[10, 52, 200, 334, 390, 330, 220]
+
+option = {
+    color: ['#982313'],
+     title: {
+        text: '标题',
+        left: 'center',
+        top: 20,
+        textStyle: {
+            color: '#444'
+        }
+    },
+    tooltip : {
+        trigger: 'axis',
+        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis : [
+        {
+            type : 'category',
+            data : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+            axisTick: {
+                alignWithLabel: true
+            }
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value'
+        }
+    ],
+    series : [
+        {
+            name:'直接访问',
+            type:'bar',
+            barWidth: '50%',
+            data:[10, 52, 200, 334, 390, 330, 220]
+        }
+    ]
+};
